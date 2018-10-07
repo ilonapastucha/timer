@@ -1,0 +1,93 @@
+body {
+    font-family: 'KoHo', sans-serif;
+  }
+  
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .button {
+    border-radius: 10px;
+    color:dodgerblue;
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  #start {
+    margin-bottom: -48px;
+    margin-top: 25px;
+  }
+  
+  #stop {
+    visibility: hidden;
+  }
+  
+  #result {
+    margin-left: 15px;
+    margin-top: 48px;
+  }
+  
+  .stopwatch {
+    font-size: 68px;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .lap-times h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  #results {
+    border-bottom: 2px solid dodgerblue;
+    border-top: 2px solid dodgerblue;
+    font-size: 24px;
+    height: 50vh;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+    width: 200px;
+    overflow-y: scroll;
+  }
+
+  #results::-webkit-scrollbar {
+      width: 20px;
+  }
+
+  #results::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  #results::-webkit-scrollbar-thumb {
+    background: dodgerblue;
+  }
+
+  #results::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  #results li {
+    list-style-type: none;
+    margin: 10px;
+  }
+  
+  #results p {
+    color: dodgerblue;
+    display: inline;
+    margin: 10px;
+  }
+  
+  #clear {
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+  }
